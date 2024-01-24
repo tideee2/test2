@@ -9,7 +9,7 @@ body{
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
-    margin: 45px;
+    margin: 35px;
 }
 .title{
     font-weight: 400;
