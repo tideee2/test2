@@ -4,7 +4,7 @@
 body{
     margin:0px;
 }
-.header_wrapper{
+.header__wrapper{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -16,18 +16,19 @@ body{
     font-size:101px;
     line-height: 100px;
 }
-.title_wrapper{
+.section__wrapper{
     padding-top: 150px;
     padding-left:200px;
     padding-bottom: 150px;
 }
-.title_img{
+.title__img{
     width:100%;
 }
-.title_section{
+.section__title{
     width: 100%;
     height: 70%;
 }
-.title_img_wrapper{
+
+.section__img-wrapper{
     width:100%;
 }
