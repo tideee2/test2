@@ -1,0 +1,45 @@
+*{
+    font-family: DM Sans;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.footer{
+    background-color: black;
+    height: 689px;
+}
+.logo-FUNHAU{
+    margin: 75px 0 0 100px;
+}
+.logo-S{
+    margin: 75px 0 0 0;
+}
+.navigation{
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 0 0 650px;
+}
+.navigation__class{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 42px;
+}
+a{
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 21px ;
+    font-family: DM Sans;
+}
+h1{
+    font-size: 39px;
+    font-family: Playfair Display;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
