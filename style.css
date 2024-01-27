@@ -1,0 +1,18 @@
+.first-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.right-first-block{
+    padding-left: 250px;
+    font-size: 40px;
+}
+.left-first-block{
+    padding: 10px 1px;
+    font-size: 24px;
+}
+.second-block{
+    font-size: 24px;
+    padding-left: 55%;
+    padding-right: 160px;
+}
