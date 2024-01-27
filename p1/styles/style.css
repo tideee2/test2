@@ -1,45 +1,60 @@
 *{
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;;
     box-sizing: border-box;
     font-weight: 400;
 }
-.footer{
-    background-color: black;
-    height: 689px;
-}
-.logo-FUNHAU{
-    margin: 75px 0 0 100px;
-}
-.logo-S{
-    margin: 75px 0 0 0;
-}
-.navigation{
-    color: #F2F2F2;
+.footer__first-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
-    margin: 0 0 0 650px;
 }
-.navigation__class{
+.footer{
+    background-color: black;
+    padding: 91px 102px 50px;
+}
+.footer__navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+.navigation__text-block{
     display: flex;
     flex-direction: column;
-    text-decoration: none;
-    line-height: 42px;
+    line-height:42px;
 }
-a{
+.navigation__title{
+    color: #F2F2F2;
+    font-size: 39px;
+    font-family: "Playfair Display", serif;
+}
+.navigation__text{
     color: #F2F2F2;
     text-decoration: none;
     font-size: 21px ;
-    font-family: DM Sans;
 }
-h1{
-    font-size: 39px;
-    font-family: Playfair Display;
-}
-.contacts{
+.footer__communication{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
+    margin-top: 200px;
 }
+.contacts__link{
+    text-decoration: none;
+    color:#F2F2F2;
+    font-size: 24px;
+    font-weight: 700;
+}
+.communication__contacts{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.communication__accounts{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
