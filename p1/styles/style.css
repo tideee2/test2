@@ -2,6 +2,67 @@
     font-family: "DM Sans", sans-serif;;
     box-sizing: border-box;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding: 65px 8vw 70px 8vw;
+    background-color: #F9F6E5;
+}
+.main__news-title{
+    text-align: center;
+    font-family: "Roboto Thin";
+    font-size: 48px;
+    line-height: 56px;
+    padding: 0 0 25px 0;
+}
+.main__news-card{
+    width: 270px;
+    margin: 0 auto 30px auto;
+    background-color: #FFFFFF;
+}
+.main__news-line{
+    background-color: #2B4074;
+    width: 100px;
+    height: 8px;
+    margin: 0 auto 40px auto;
+}
+.news__card-content p{
+    font-family: "Roboto Light";
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0 0 10px 0;
+    margin: 0 0 0 8px;
+}
+
+.news__card-content{
+    text-decoration: none;
+    color:#4A4A4A
+}
+
+@media screen and (min-width: 650px){
+    .main__news-images{
+        columns: 2;
+    }
+    .main__news-line{
+        margin:0 auto 50px auto ;
+    }
+}
+@media screen and (min-width: 1024px){
+    .main__news-images{
+        columns: 3;
+    }
+    .main__news-line{
+        margin:0 auto 95px auto ;
+    }
+}
+@media screen and (min-width: 1380px){
+    .main__news-images{
+        columns: 4;
+    }
+    .main__news-line{
+        margin:0 auto 120px auto ;
+    }
 }
 .footer__first-section{
     display: flex;
